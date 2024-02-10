@@ -15,6 +15,7 @@ function App() {
          <Route path='/donald' element={<Donald/>}/>
          <Route path='/' element={<Hero/>}/>
        </Routes>
+       {/* sjgvjb */}
       <Footer/>
     </>
   );
