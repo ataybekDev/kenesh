@@ -1,0 +1,103 @@
+#header {
+    padding: 15px;
+    z-index: 100px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 10px rgb(169, 146, 243);
+    background-color: white;
+    background: rgb(130, 97, 240);
+    background: linear-gradient(
+        90deg,
+        rgba(130, 97, 240, 1) 0%,
+        rgba(129, 106, 224, 1) 46%,
+        rgba(148, 178, 230, 1) 100%
+    );
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &--logo {
+            display: flex;
+            align-items: center;
+            h1 {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+        &--navbar {
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+        &--input {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+#hero {
+    padding: 80px 0;
+    background: linear-gradient(
+        90deg,
+        rgba(130, 97, 240, 1) 0%,
+        rgba(129, 106, 224, 1) 46%,
+        rgba(148, 178, 230, 1) 100%
+    );
+    .hero {
+        &--block {
+            position: relative;
+            width: 280px;
+            height: 410px;
+            margin-bottom: 20px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 16px;
+            li {
+                padding: 10px 20px;
+            }
+            &__btn {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: absolute;
+                top: 280px;
+                left: 40px;
+            }
+        }
+    }
+}
+
+
+#donald{
+    padding: 40px 0;
+}
+
+
+#footer{
+    padding: 40px 0;
+    background: linear-gradient(
+        90deg,
+        rgba(130, 97, 240, 1) 0%,
+        rgba(129, 106, 224, 1) 46%,
+        rgba(148, 178, 230, 1) 100%
+    );
+    .footer{
+        &--title{
+            display: flex;
+            align-items: center;
+            h1 {
+                color: #fff;
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+        a{
+            padding-bottom: 50px;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+    }
+}
